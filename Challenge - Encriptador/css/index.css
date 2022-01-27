@@ -1,0 +1,64 @@
+* {
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+}
+
+.titulo {
+    margin-top: 3%;
+    text-align: center;
+}
+
+.box {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 5%;
+    width: 60%;
+    padding: 10px;
+}
+
+.sub-box {
+    display: flex;
+    padding: 10px;
+    border-radius: 0.5em;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.3);
+
+}
+
+.btn {
+    margin: 10px;
+    padding: 5px;
+    background-color: blue;
+    color: white;
+}
+
+.input-encriptador, .output-mensaje {
+    width: 500px;
+    height: 100px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    height: 40px;
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+
+footer>div {
+    display: flex;
+    justify-content: center;
+}
+
+footer>div>p {
+    font-size: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}

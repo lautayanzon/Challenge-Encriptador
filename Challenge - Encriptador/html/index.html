@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Encriptador</title>
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <header>
+        <div class="titulo">
+            <h1>Encriptador de texto</h1>
+        </div>
+    </header>
+
+    <main>
+        <section class="box">
+            <div class="sub-box">
+                <form id="form-encriptar">
+
+                    <div>
+                        <input class="input-encriptador" name="mensaje" type="text" placeholder="Ingrese el texto aquí">
+                    </div>
+                    <div>
+                        <button class="btn" id="boton-encriptar">Encriptar</button>
+                        <button class="btn" id="boton-desencriptar">Desencriptar</button>
+                    </div>
+
+                </form>
+            </div>
+            <div class="sub-box">
+                <form id="form-encriptado">
+
+                    <div>
+                        <input class="output-mensaje" name="mensajeEncriptado" type="text">
+                    </div>
+                    <div>
+                        <button class="btn" id="boton-copiar">Copiar</button>
+                    </div>
+
+                </form>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div>
+            <p>Lautaro Yanzon &#169</p>
+            <p><a href="https://www.linkedin.com/in/lautaroyanzon13/">LinkedIn</a></p>
+        </div>
+    </footer>
+
+    <script src="../js/encriptador.js"></script>
+    <script src="../js/principal.js"></script>
+    <script src="../js/copiar.js"></script>
+
+</body>
+
+</html>
